@@ -4,3 +4,7 @@ No external pull-up resistor required on a board for 1-wire devices as a result.
 
 Details here
 http://wp.josh.com/2014/06/23/no-external-pull-up-needed-for-ds18b20-temp-sensor/
+
+To activate internal pull-up specify 
+
+#define ONEWIRE_INTERNAL_PULLUP 1
